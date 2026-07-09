@@ -13,6 +13,9 @@ import taskRoutes from "./routes/tasks.routes.js";
 import aiRoutes from "./routes/ai.routes.js";
 import analyticsRoutes from "./routes/analytics.routes.js";
 
+console.log("NODE_ENV:", process.env.NODE_ENV);
+console.log("CLIENT_URL:", process.env.CLIENT_URL);
+
 const app = express();
 
 /*____________________--MIDDLEWARES____________________*/
