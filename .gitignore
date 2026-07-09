@@ -1,0 +1,5 @@
+backend/node_modules/
+backend/.env
+
+frontend/AICRMdashboard/node_modules/
+frontend/AICRMdashboard/dist/
